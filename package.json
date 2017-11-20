@@ -1,0 +1,26 @@
+{
+  "name": "tessel-code",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "nunjucks": "^3.0.1",
+    "path": "^0.12.7",
+    "rfid-pn532": "^0.1.9",
+    "tessel": "^0.3.25",
+    "tessel-av": "^0.19.0"
+  }
+}
